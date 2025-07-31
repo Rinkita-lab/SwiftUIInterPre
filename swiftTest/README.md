@@ -58,3 +58,40 @@ CustomStack {
 ✅ Explain the difference between Spacer() and Divider()
 ✅ What is a NavigationView and how do you use it in SwiftUI?
 ✅ How do you show a modal sheet in SwiftUI?
+✅ What is @Environment and how is it used?
+✅ What are @ObservedObject, @StateObject, and @EnvironmentObject? When should you use each?
+✅ What are some differences between List, ScrollView, and ForEach?
+✅ How do you handle user input and form validation in SwiftUI?
+✅ What is onAppear and when is it called?
+✅ How do you implement Dark Mode support in SwiftUI?
+✅ How do you create reusable UI components in SwiftUI?
+
+Creating reusable UI components in SwiftUI is one of its core strengths, thanks to its declarative and composable architecture. You simply extract parts of your UI into custom View structs, and you can pass in data or configuration using parameters.
+struct PrimaryButton: View {
+    let title: String
+    let action: () -> Void
+
+    var body: some View {
+        Button(action: action) {
+            Text(title)
+                .font(.headline)
+                .padding()
+                .frame(maxWidth: .infinity)
+                .background(Color.blue)
+                .foregroundColor(.white)
+                .cornerRadius(8)
+        }
+    }
+}
+
+PrimaryButton(title: "Submit") {
+    print("Button tapped")
+}
+
+✅ When should you use Combine with SwiftUI?
+✅ What is the lifecycle of a SwiftUI View?
+✅ 
+✅ 
+✅ 
+✅ 
+

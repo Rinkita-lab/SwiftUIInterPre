@@ -38,7 +38,16 @@
 		FFBA32DC2DA506A5004E3916 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBA32DB2DA506A5004E3916 /* Background.swift */; };
 		FFBA32DE2DA50929004E3916 /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBA32DD2DA50928004E3916 /* Overlay.swift */; };
 		FFCB48BD2DB0E811005D16EC /* SafeAreaBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCB48BC2DB0E811005D16EC /* SafeAreaBootcamp.swift */; };
+		FFEC03562E3B674F00F8EA70 /* StateObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEC03552E3B674F00F8EA70 /* StateObjectExample.swift */; };
+		FFEC03582E3B712900F8EA70 /* observedObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEC03572E3B712900F8EA70 /* observedObjectExample.swift */; };
+		FFEC035A2E3B727A00F8EA70 /* EnvironmentObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEC03592E3B727A00F8EA70 /* EnvironmentObjectExample.swift */; };
+		FFEC035C2E3B7BBC00F8EA70 /* ListScrollViewForEachExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEC035B2E3B7BBC00F8EA70 /* ListScrollViewForEachExample.swift */; };
+		FFEC035E2E3B7D3200F8EA70 /* FormValidationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEC035D2E3B7D3200F8EA70 /* FormValidationView.swift */; };
+		FFEC03602E3B823F00F8EA70 /* OnApperExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEC035F2E3B823F00F8EA70 /* OnApperExample.swift */; };
+		FFEC03622E3B84EF00F8EA70 /* darkModeSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEC03612E3B84EE00F8EA70 /* darkModeSupport.swift */; };
+		FFEC03642E3B9FED00F8EA70 /* CombineFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEC03632E3B9FED00F8EA70 /* CombineFramework.swift */; };
 		FFECFE232E3A546D00F8EA70 /* ModelSheeet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFECFE222E3A546D00F8EA70 /* ModelSheeet.swift */; };
+		FFECFE2D2E3B546300F8EA70 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFECFE2C2E3B546300F8EA70 /* Environment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,7 +102,17 @@
 		FFBA32DB2DA506A5004E3916 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		FFBA32DD2DA50928004E3916 /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
 		FFCB48BC2DB0E811005D16EC /* SafeAreaBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaBootcamp.swift; sourceTree = "<group>"; };
+		FFEC03552E3B674F00F8EA70 /* StateObjectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectExample.swift; sourceTree = "<group>"; };
+		FFEC03572E3B712900F8EA70 /* observedObjectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = observedObjectExample.swift; sourceTree = "<group>"; };
+		FFEC03592E3B727A00F8EA70 /* EnvironmentObjectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectExample.swift; sourceTree = "<group>"; };
+		FFEC035B2E3B7BBC00F8EA70 /* ListScrollViewForEachExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScrollViewForEachExample.swift; sourceTree = "<group>"; };
+		FFEC035D2E3B7D3200F8EA70 /* FormValidationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidationView.swift; sourceTree = "<group>"; };
+		FFEC035F2E3B823F00F8EA70 /* OnApperExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnApperExample.swift; sourceTree = "<group>"; };
+		FFEC03612E3B84EE00F8EA70 /* darkModeSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darkModeSupport.swift; sourceTree = "<group>"; };
+		FFEC03632E3B9FED00F8EA70 /* CombineFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineFramework.swift; sourceTree = "<group>"; };
+		FFEC03672E3BA58E00F8EA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFECFE222E3A546D00F8EA70 /* ModelSheeet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSheeet.swift; sourceTree = "<group>"; };
+		FFECFE2C2E3B546300F8EA70 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +192,16 @@
 				FF390B5B2E3A36500077B6E8 /* Binding.swift */,
 				FF390B5F2E3A48AC0077B6E8 /* NavigationView.swift */,
 				FFECFE222E3A546D00F8EA70 /* ModelSheeet.swift */,
+				FFECFE2C2E3B546300F8EA70 /* Environment.swift */,
+				FFEC03552E3B674F00F8EA70 /* StateObjectExample.swift */,
+				FFEC03572E3B712900F8EA70 /* observedObjectExample.swift */,
+				FFEC03592E3B727A00F8EA70 /* EnvironmentObjectExample.swift */,
+				FFEC035B2E3B7BBC00F8EA70 /* ListScrollViewForEachExample.swift */,
+				FFEC035D2E3B7D3200F8EA70 /* FormValidationView.swift */,
+				FFEC035F2E3B823F00F8EA70 /* OnApperExample.swift */,
+				FFEC03612E3B84EE00F8EA70 /* darkModeSupport.swift */,
+				FFEC03632E3B9FED00F8EA70 /* CombineFramework.swift */,
+				FFEC03672E3BA58E00F8EA70 /* Info.plist */,
 			);
 			path = swiftTest;
 			sourceTree = "<group>";
@@ -345,7 +374,9 @@
 				FFBA32D62DA41422004E3916 /* SystemIcons.swift in Sources */,
 				FFAE0A132DACF199002F5E8A /* ScrollviewBootcamp.swift in Sources */,
 				FFECFE232E3A546D00F8EA70 /* ModelSheeet.swift in Sources */,
+				FFEC03602E3B823F00F8EA70 /* OnApperExample.swift in Sources */,
 				FFAE0A112DACEE6F002F5E8A /* ForEachLoop.swift in Sources */,
+				FFEC035E2E3B7D3200F8EA70 /* FormValidationView.swift in Sources */,
 				FF390B5C2E3A36500077B6E8 /* Binding.swift in Sources */,
 				FFBA32D22DA40CBC004E3916 /* Shaps.swift in Sources */,
 				FFBA32D82DA502F2004E3916 /* ImageBootcamp.swift in Sources */,
@@ -355,10 +386,17 @@
 				FFAE0A0F2DACE412002F5E8A /* Initialization.swift in Sources */,
 				FF287C742DA52ECE0052E380 /* OverlayAndBackGrountTogether.swift in Sources */,
 				FFCB48BD2DB0E811005D16EC /* SafeAreaBootcamp.swift in Sources */,
+				FFECFE2D2E3B546300F8EA70 /* Environment.swift in Sources */,
+				FFEC035C2E3B7BBC00F8EA70 /* ListScrollViewForEachExample.swift in Sources */,
 				FFBA32D02DA40701004E3916 /* ColorsAndShadow.swift in Sources */,
 				FF390B602E3A48AC0077B6E8 /* NavigationView.swift in Sources */,
+				FFEC035A2E3B727A00F8EA70 /* EnvironmentObjectExample.swift in Sources */,
+				FFEC03582E3B712900F8EA70 /* observedObjectExample.swift in Sources */,
+				FFEC03622E3B84EF00F8EA70 /* darkModeSupport.swift in Sources */,
 				FFAE0A0B2DA8F20B002F5E8A /* paddingBootcamp.swift in Sources */,
+				FFEC03642E3B9FED00F8EA70 /* CombineFramework.swift in Sources */,
 				FF4A1E002D9EB7D50019CF23 /* swiftTestApp.swift in Sources */,
+				FFEC03562E3B674F00F8EA70 /* StateObjectExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +562,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"swiftTest/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/swiftTest/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -553,6 +592,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"swiftTest/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/swiftTest/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
