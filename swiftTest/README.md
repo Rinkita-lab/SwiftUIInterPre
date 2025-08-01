@@ -90,8 +90,26 @@ PrimaryButton(title: "Submit") {
 
 ✅ When should you use Combine with SwiftUI?
 ✅ What is the lifecycle of a SwiftUI View?
-✅ 
-✅ 
-✅ 
-✅ 
+✅ What is the lifecycle of a SwiftUI View?
+Appearing means inserting a view into a view graph. In this phase, a view is initialized, subscribed to the state, and rendered for the first time.
+Updating is performed in response to an external event or state mutation.
+Disappearing means removing a view from the hierarchy.
+✅ What causes a SwiftUI View to re-render?
+1. Changes to @State, @Binding, or @ObservedObject
+These property wrappers trigger view updates when their values change.
+2. Changes to @Published properties in ObservableObjects
+If you use @ObservedObject or @StateObject to observe a class that conforms to ObservableObject, SwiftUI will re-render when @Published properties change.
+3. Changes to Environment values
+4. View depends on computed or derived data
+5. Animations and Transitions
+✅ What is the difference between @Published and @State?
+Use @State for simple, local view state.
+Use @Published with ObservableObject (and @ObservedObject / @StateObject in the view) for shared, model-driven state.
+✅ What performance pitfalls should you avoid in SwiftUI?
+View Re-Renders
+Cause: Overusing @State, @ObservedObject, or @EnvironmentObject where not needed.
+Fix:
+    Use @Binding to pass only what you need.
+    Move state to a parent view or use EquatableView to reduce updates.
+    Use @StateObject instead of @ObservedObject to avoid re-creating view models unnecessarily.
 
